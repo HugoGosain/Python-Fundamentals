@@ -155,11 +155,11 @@
 
 # print("I am "+name+" and I am "+str(age)+" years old")
 
-print("hello\nnew line")
-print("\n")
-print("hi")
+# print("hello\nnew line")
+# print("\n")
+# print("hi")
 
-name = input("what is your name?")
-age = input("what is your age?")
-nationality = input("what is your nationality?")
-print("My name is "+name+"\nI am "+age+" years old and I am "+nationality)
+# name = input("what is your name?")
+# age = input("what is your age?")
+# nationality = input("what is your nationality?")
+# print("My name is "+name+"\nI am "+age+" years old and I am "+nationality)
