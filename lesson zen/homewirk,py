@@ -1,0 +1,23 @@
+import turtle
+
+pen = turtle.Turtle()
+paper = turtle.Screen()
+pen.speed(100)
+
+import time
+
+sides = int(input("how many sides in the polygon? "))
+colour = input("what colour should it be? ")
+
+time.sleep(10)
+
+pen.fillcolor(colour)
+pen.begin_fill()
+angle = 360/sides
+for i in range(sides):
+    pen.forward(15)
+    pen.right(angle)
+pen.end_fill()
+
+
+turtle.done()
