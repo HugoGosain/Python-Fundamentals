@@ -43,9 +43,9 @@
 # number = numberChecker(5)
 # print (number)
 
-num1 = 10
-num2 = 15
-num3 = 20
+# num1 = 10
+# num2 = 15
+# num3 = 20
 
 # if num1 > num2 and num1 > num3:
 #     1
@@ -53,27 +53,33 @@ num3 = 20
 #     3
 
 
-if num1 > num2:
-    if num1 > num3:
-        print("number 1 is biggest")
-    elif num1 < num3:
-        print("number 3 is biggest")
-    else:
-        print("number 1 and 3 are biggest and the same")
-elif num1 < num2:
-    if num1 > num3:
-        print("number 2 is biggest")
-    elif num2 < num3:
-        print("number 3 is biggest")
-    else:
-        print("number 2  and 3 are biggest and the same")
+# if num1 > num2:
+#     if num1 > num3:
+#         print("number 1 is biggest")
+#     elif num1 < num3:
+#         print("number 3 is biggest")
+#     else:
+#         print("number 1 and 3 are biggest and the same")
+# elif num1 < num2:
+#     if num1 > num3:
+#         print("number 2 is biggest")
+#     elif num2 < num3:
+#         print("number 3 is biggest")
+#     else:
+#         print("number 2  and 3 are biggest and the same")
 
-def numcheck(number):
-    if number%3 == 0:
-        return True
-    else:
-        return False
+# def numcheck(number):
+#     if number%3 == 0:
+#         return True
+#     else:
+#         return False
     
-answer = numcheck(5)
-print(answer)
+# answer = numcheck(5)
+# print(answer)
 
+number = int(input("What number's multiplication table do you want to see? "))
+
+def multiply_table(number):
+    for i in range(1,11):
+        print (f"{number} * {i} = {number*i}")
+multiply_table(number)
